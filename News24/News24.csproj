@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="content\images\" />
-    <Folder Include="content\сss\" />
+    <None Include="wwwroot\content\css\stylo.css" />
+    <None Include="wwwroot\content\images\favicon.ico" />
   </ItemGroup>
 
 </Project>
