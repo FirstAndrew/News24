@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(150, 95, 223);
+}
+.header_wrapper {
+    display: flex;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background-color: rgb(125, 86, 175);
+}
+
+.up_menu{
+    margin-left: 50px;
+    display: flex;   
+}
+.logo{
+    margin: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background: rgb(139, 77, 219);
+    border-radius: 20px;
+    transition: 2s;
+    font-family: RocknRoll one;
+}
+.logo:hover{
+    border-radius: 5px;    
+    color:rgb(6, 93, 224);
+    background: rgb(237, 223, 255);
+}
+
+
+.header_item{
+    margin: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.header_item:hover{
+    color: rgb(179, 146, 255);
+}
+
+main{
+    display: flex;
+    margin: 20px 20px;
+}
+
+.left_state_menu{
+    margin: 10px;    
+    
+}
+
+.one_state{
+    margin: 5px 5px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background: rgb(222, 208, 255);
+}
